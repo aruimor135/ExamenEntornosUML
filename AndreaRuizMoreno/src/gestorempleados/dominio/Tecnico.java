@@ -15,4 +15,9 @@ public class Tecnico extends Empleado {
 		return sueldo;
 	}
 
+	public String toString() {
+		return String.format("DNI: %s\n, Nombre: %s\n, Apellidos: %s\n, SueldoBase: %d\n, Categoria: %d\n ", dni,
+				nombre, apellidos, sueldoBase, categoria);
+	}
+
 }

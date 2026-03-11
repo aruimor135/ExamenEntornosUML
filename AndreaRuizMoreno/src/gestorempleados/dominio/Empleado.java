@@ -2,10 +2,10 @@ package gestorempleados.dominio;
 
 public abstract class Empleado {
 
-	private String dni;
-	private String nombre;
-	private String apellidos;
-	private double sueldoBase;
+	protected String dni;
+	protected String nombre;
+	protected String apellidos;
+	protected double sueldoBase;
 
 	public Empleado(String dni, String nombre, String apellidos, double sueldoBase) {
 		this.dni = dni;

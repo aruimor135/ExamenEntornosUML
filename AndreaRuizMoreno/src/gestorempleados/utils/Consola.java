@@ -52,7 +52,7 @@ public class Consola {
 				numero = Double.parseDouble(texto);
 				ok = true;
 			} catch (NumberFormatException e) {
-				System.out.println("ERROR - Introduce un número entero válido.");
+				System.out.println("ERROR - Introduce un número válido.");
 			}
 		}
 		return numero;
@@ -72,7 +72,7 @@ public class Consola {
 	}
 
 	public void pausa() {
-		System.out.println("Pulse para continuar");
+		System.out.println("Pulse una tecla para continuar...");
 		sc.nextLine();
 	}
 
